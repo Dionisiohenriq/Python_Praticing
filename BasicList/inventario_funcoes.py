@@ -18,6 +18,7 @@ def lista(inventario_produtos):
         print(f"Serial: {inventario_produtos[produto][2]}")
         print(f"Departamento: {inventario_produtos[produto][3]}")
 
+
 def remover(inventario_produtos):
     # remoção de um equipamento
     busca = input("Insira o nome do produto a ser excluído: ")
